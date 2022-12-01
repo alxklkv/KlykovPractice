@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">geography_app</string>
+    <string name="btn_Edu">Приступить к обучению</string>
+    <string name="chapter1_atmos">Атмосфера</string>
+    <string name="chapter2_gidro">Гидросфера</string>
+    <string name="chapter3_bio">Биосфера</string>
+    <string name="chapter4_eatrh">Земля во Вселенной</string>
+    <string name="topics">Темы</string>
+    <string name="tests">Тесты</string>
+    <string name="donate">Доп.Темы</string>
+</resources>
