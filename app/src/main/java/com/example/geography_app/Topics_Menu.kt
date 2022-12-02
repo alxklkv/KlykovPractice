@@ -5,17 +5,16 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class MainMenu : AppCompatActivity() {
+class Topics_Menu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_menu)
-        setTitle("Главное меню")
+        setContentView(R.layout.activity_topics_menu)
+        setTitle("Список тем")
     }
 
-    fun themes_btn(view: View) {
+    fun topic_atmos(view: View) {
 
-        val intent : Intent = Intent (this@MainMenu,Topics_Menu::class.java)
+        val intent : Intent = Intent (this@Topics_Menu, topic_atmos::class.java)
         startActivity(intent)
-
     }
 }
