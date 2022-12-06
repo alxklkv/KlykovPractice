@@ -9,6 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#FFFDB449</color>
     <color name="Green">#7affad</color>
-    <color name="blue">#39BAED</color>
+    <color name="blue2">#39BAED</color>
+    <color name="blue">#3D9BFF</color>
     <color name="orange_btn">#FFFF982A</color>
+    <color name="blocked">#58B1B5</color>
 </resources>

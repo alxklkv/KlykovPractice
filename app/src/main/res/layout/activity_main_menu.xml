@@ -5,57 +5,54 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainMenu"
-    android:background="@color/orange"
+    android:background="@drawable/main_screen_bg2"
     >
 
     <Button
-        android:id="@+id/tests_btn2"
-        android:layout_width="230dp"
+        android:id="@+id/topics_btn"
+        android:layout_width="265dp"
         android:layout_height="65dp"
-        android:backgroundTint="#58B1B5"
-        android:drawableRight="@drawable/lock_32px"
-        android:text="@string/donate"
-        android:textSize="17sp"
+        android:backgroundTint="@color/blue"
+        android:drawableEnd="@drawable/star_white"
+        android:fontFamily="@font/montserrat_bold"
+        android:onClick="themes_btn"
+        android:text="@string/topics"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tests_btn"
-        app:layout_constraintVertical_bias="0.087"
-        android:drawableLeft="@drawable/lock_32px"
-        android:fontFamily="@font/montserrat_bold"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405" />
 
     <Button
         android:id="@+id/tests_btn"
-        android:layout_width="230dp"
+        android:layout_width="265dp"
         android:layout_height="65dp"
         android:backgroundTint="@color/blue"
+        android:drawableEnd="@drawable/tests"
+        android:fontFamily="@font/montserrat_bold"
         android:text="@string/tests"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topics_btn"
-        app:layout_constraintVertical_bias="0.06"
-        android:drawableEnd="@drawable/tests"
-        android:fontFamily="@font/montserrat_bold"/>
+        app:layout_constraintVertical_bias="0.054" />
 
     <Button
-        android:id="@+id/topics_btn"
-        android:layout_width="230dp"
+        android:id="@+id/tests_btn2"
+        android:layout_width="265dp"
         android:layout_height="65dp"
-        android:backgroundTint="@color/blue"
-        android:text="@string/topics"
-        android:textSize="20sp"
-        android:onClick="themes_btn"
+        android:backgroundTint="@color/blocked"
+        android:drawableLeft="@drawable/lock_32px"
+        android:drawableRight="@drawable/lock_32px"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/donate"
+        android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.451"
-        android:drawableEnd="@drawable/star_white"
-        android:fontFamily="@font/montserrat_bold"/>
+        app:layout_constraintTop_toBottomOf="@+id/tests_btn"
+        app:layout_constraintVertical_bias="0.08" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
